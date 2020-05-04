@@ -244,6 +244,32 @@ const categories = [
         code: 10256
       },
     ]
+  },
+  {
+    name: "Cult Movies",
+    code: 7627,
+    other: [
+      {
+        name: "B-Horror Movies",
+        code: 8195
+      },
+      {
+        name: "Camp Movies",
+        code: 1252
+      },
+      {
+        name: "Cult Horror Movies",
+        code: 10944
+      },
+      {
+        name: "Cult Sci-Fi Fantasty",
+        code: 4734
+      },
+      {
+        name: "Cult Comedies",
+        code: 934
+      },
+    ]
   }
 ];
 

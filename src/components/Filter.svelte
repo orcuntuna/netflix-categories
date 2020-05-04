@@ -1,5 +1,6 @@
 <style>
   .filter {
+    padding: 0 7px;
     margin-top: 30px;
     position: relative;
   }

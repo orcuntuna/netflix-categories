@@ -6,10 +6,10 @@
   .custom-card {
     background-color: #222;
     padding: 10px 10px;
-    border-radius: 3px;
+    border-radius: 4px;
     flex: auto;
     min-width: 150px;
-    margin: 0 8px 8px 0;
+    margin: 0 14px 14px 0;
     width: 300px;
   }
   a {
