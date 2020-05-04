@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "masonry-css": "0.0.6",
     "sirv-cli": "^0.4.4"
   }
 }
