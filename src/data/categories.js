@@ -518,7 +518,456 @@ const categories = [
         code: 10757
       },
     ]
-  }
+  },
+  {
+    name: "Gay & Lesbian Movies",
+    code: 5977,
+    other: [
+      {
+        name: "Gay & Lesbian Comedies",
+        code: 7120
+      },
+      {
+        name: "Gay & Lesbian Dramas",
+        code: 500
+      },
+      {
+        name: "Ramantic Gay & Lesbian Movies",
+        code: 3329
+      },
+      {
+        name: "Foreign Gay & Lesbian Movies",
+        code: 8243
+      },
+      {
+        name: "Gay & Lesbian Documentaries",
+        code: 4720
+      },
+      {
+        name: "Gay & Lesbian TV Shows",
+        code: 65263
+      },
+    ]
+  },
+  {
+    name: "Horror Movies",
+    code: 8711,
+    other: [
+      {
+        name: "B-Horror Movies",
+        code: 8195
+      },
+      {
+        name: "Creature Features",
+        code: 6895
+      },
+      {
+        name: "Cult Horror Movies",
+        code: 10944
+      },
+      {
+        name: "Deep Sea horror Movies",
+        code: 45028
+      },
+      {
+        name: "Foreign Horror Movies",
+        code: 8654
+      },
+      {
+        name: "Horror Comedy",
+        code: 89585
+      },
+      {
+        name: "Monster Movies",
+        code: 947
+      },
+      {
+        name: "Slasher and Seial Killer Movies",
+        code: 8646
+      },
+      {
+        name: "Supernatural Horror Movies",
+        code: 42023
+      },
+      {
+        name: "Teen Screams",
+        code: 52147
+      },
+      {
+        name: "Vampire Horror Movies",
+        code: 75804
+      },
+      {
+        name: "Werewolf Horror Movies",
+        code: 75930
+      },
+      {
+        name: "Zombie Horror Movies",
+        code: 75405
+      },
+      {
+        name: "Satanic Stories",
+        code: 6998
+      },
+
+    ]
+  },
+  {
+    name: "Independent Movies",
+    code: 7077,
+    other: [
+      {
+        name: "Exprimental Movies",
+        code: 11079
+      },
+      {
+        name: "Independent Action & Adventure",
+        code: 11804
+      },
+      {
+        name: "Independent Thrillers",
+        code: 3269
+      },
+      {
+        name: "Romantic Independent Movies",
+        code: 9916
+      },
+      {
+        name: "Independent Comedies",
+        code: 4195
+      },
+      {
+        name: "Independent Dramas",
+        code: 384
+      },
+    ]
+  },
+  {
+    name: "Music",
+    code: 1701,
+    other: [
+      {
+        name: "Kids Music",
+        code: 52843
+      },
+      {
+        name: "Country & Western/Folk",
+        code: 1105
+      },
+      {
+        name: "Jazz & Easy Listening",
+        code: 10271
+      },
+      {
+        name: "Latin Music",
+        code: 10741
+      },
+      {
+        name: "Urban & Dance Concerts",
+        code: 9472
+      },
+      {
+        name: "World Music Concerts",
+        code: 2856
+      },
+      {
+        name: "Rock & Pop Concerts",
+        code: 3278
+      },
+    ]
+  },
+  {
+    name: "Musicals",
+    code: 13335,
+    other: [
+      {
+        name: "Classic Musicals",
+        code: 32392
+      },
+      {
+        name: "Disney Musicals",
+        code: 59433
+      },
+      {
+        name: "Showbiz Musicals",
+        code: 13573
+      },
+      {
+        name: "Stage Musicals",
+        code: 55774
+      },
+    ]
+  },
+  {
+    name: "Romantic Movies",
+    code: 8883,
+    other: [
+      {
+        name: "Romantic Favorites",
+        code: 502675
+      },
+      {
+        name: "Quirky Romantic",
+        code: 36103
+      },
+      {
+        name: "Romantic Independent Movies",
+        code: 9916
+      },
+      {
+        name: "Romantic Foreign Movies",
+        code: 7153
+      },
+      {
+        name: "Romantic Dramas Movies",
+        code: 1255
+      },
+      {
+        name: "Steamy romantic Movies",
+        code: 35800
+      },
+      {
+        name: "Classic Romantic Movies",
+        code: 31273
+      },
+      {
+        name: "Romantic Comedies",
+        code: 5475
+      },
+    ]
+  },
+  {
+    name: "Sci-Fi & Fantasy",
+    code: 1492,
+    other: [
+      {
+        name: "Action Sci-Fi & Fantasy",
+        code: 1568
+      },
+      {
+        name: "Alien Sci-Fi",
+        code: 3327
+      },
+      {
+        name: "Classic Sci-Fi & Fantasy",
+        code: 47147
+      },
+      {
+        name: "Cult Sci-Fi & Fantasy",
+        code: 4734
+      },
+      {
+        name: "Fantasy Movies",
+        code: 9744
+      },
+      {
+        name: "Sci-Fi Adventure",
+        code: 6926
+      },
+      {
+        name: "Sci-Fi Dramas",
+        code: 3916
+      },
+      {
+        name: "Sci-Fi Horror Movies",
+        code: 1694
+      },
+      {
+        name: "Sci-Fi Thrillers",
+        code: 11014
+      },
+      {
+        name: "Foreign Sci-Fi & Fantasy",
+        code: 6485
+      },
+    ]
+  },
+  {
+    name: "Sports Movies",
+    code: 4370,
+    other: [
+      {
+        name: "Sports Comedies",
+        code: 5286
+      },
+      {
+        name: "Sports Documentaries",
+        code: 180
+      },
+      {
+        name: "Sports Dramas",
+        code: 7243
+      },
+      {
+        name: "Baseball Movies",
+        code: 12339
+      },
+      {
+        name: "Football Movies",
+        code: 12803
+      },
+      {
+        name: "Boxing M10499ovies",
+        code: 12443
+      },
+      {
+        name: "Soccer Movies",
+        code: 12549
+      },
+      {
+        name: "Martial Arts, Boxing & Wrestling",
+        code: 6695
+      },
+      {
+        name: "Basketball Movies",
+        code: 12762
+      },
+      {
+        name: "Sports & Fitness",
+        code: 9327
+      },
+    ]
+  },
+  {
+    name: "Thrillers",
+    code: 8933,
+    other: [
+      {
+        name: "Action Thrillers",
+        code: 43048
+      },
+      {
+        name: "Classic Thrillers",
+        code: 46588
+      },
+      {
+        name: "Crime Thrillers",
+        code: 10499
+      },
+      {
+        name: "Foreign Thrillers",
+        code: 10306
+      },
+      {
+        name: "Independent Thrillers",
+        code: 3269
+      },
+      {
+        name: "Gangster Movies",
+        code: 31851
+      },
+      {
+        name: "Psychological Thrillers",
+        code: 5505
+      },
+      {
+        name: "Political Thrillers",
+        code: 10504
+      },
+      {
+        name: "Mysteries",
+        code: 9994
+      },
+      {
+        name: "Sci-Fi Thrillers",
+        code: 11014
+      },
+      {
+        name: "Spy Thrillers",
+        code: 9147
+      },
+      {
+        name: "Steamy Thrillers",
+        code: 972
+      },
+      {
+        name: "Supernatural Thrillers",
+        code: 11140
+      },
+    ]
+  },
+  {
+    name: "TV Shows",
+    code: 83,
+    other: [
+      {
+        name: "British TV Shows",
+        code: 52117
+      },
+      {
+        name: "Classic TV Shows",
+        code: 46553
+      },
+      {
+        name: "Crime TV Shows",
+        code: 26146
+      },
+      {
+        name: "Cult TV Shows",
+        code: 74652
+      },
+      {
+        name: "Food & Travel TV",
+        code: 72436
+      },
+      {
+        name: "Kids' TV",
+        code: 27346
+      },
+      {
+        name: "Korean TV Shows",
+        code: 67879
+      },
+      {
+        name: "Miniseries",
+        code: 4814
+      },
+      {
+        name: "Military TV Shows",
+        code: 25804
+      },
+      {
+        name: "Science & Nature TV",
+        code: 52780
+      },
+      {
+        name: "TV Action & Adventure",
+        code: 10673
+      },
+      {
+        name: "TV Comedies",
+        code: 10375
+      },
+      {
+        name: "TV Documentaries",
+        code: 10105
+      },
+      {
+        name: "TV Dramas",
+        code: 11714
+      },
+      {
+        name: "TV Horror",
+        code: 83059
+      },
+      {
+        name: "TV Mysteries",
+        code: 4366
+      },
+      {
+        name: "TV Sci-Fi & Fantasy",
+        code: 1372
+      },
+      {
+        name: "Reality TV",
+        code: 9833
+      },
+      {
+        name: "Teen TV Shows",
+        code: 60951
+      },
+    ]
+  },
 ];
 
 export default categories;
