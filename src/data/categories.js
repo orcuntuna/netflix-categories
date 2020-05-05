@@ -2,7 +2,6 @@ const categories = [
   {
     name: "Action & Adventure",
     code: 1365,
-    background: "#227093",
     other: [
       {
         name: "Asian Action Movies",
@@ -53,7 +52,6 @@ const categories = [
   {
     name: "Anime",
     code: 7424,
-    background: "#553772",
     other: [
       {
         name: "Adult Animation",
@@ -96,7 +94,6 @@ const categories = [
   {
     name: "Children & Family Movies",
     code: 783,
-    background: "#9D5716",
     other: [
       {
         name: "Movies for ages 0 to 2",
@@ -155,7 +152,6 @@ const categories = [
   {
     name: "Classic Movies",
     code: 31574,
-    background: "#b71540",
     other: [
       {
         name: "Classic Comedies",
@@ -198,7 +194,6 @@ const categories = [
   {
     name: "Comedies",
     code: 6548,
-    background: "#474787",
     other: [
       {
         name: "Dark Comedies",
@@ -253,7 +248,6 @@ const categories = [
   {
     name: "Cult Movies",
     code: 7627,
-    background: "#664200",
     other: [
       {
         name: "B-Horror Movies",
@@ -280,7 +274,6 @@ const categories = [
   {
     name: "Documentaries",
     code: 6839,
-    background: "#006666",
     other: [
       {
         name: "Biographical Documentaries",
@@ -335,7 +328,6 @@ const categories = [
   {
     name: "Dramas",
     code: 5763,
-    background: "#9D5716",
     other: [
       {
         name: "Biographical Dramas",
@@ -410,7 +402,6 @@ const categories = [
   {
     name: "Faith & Spirituality",
     code: 26835,
-    background: "#166D9D",
     other: [
       {
         name: "Faith & Spirituality Movies",
@@ -429,7 +420,6 @@ const categories = [
   {
     name: "Foreign Movies",
     code: 7462,
-    background: "#8F3B76",
     other: [
       {
         name: "Art House Movies",
@@ -532,7 +522,6 @@ const categories = [
   {
     name: "Horror Movies",
     code: 8711,
-    background: "#535c68",
     other: [
       {
         name: "B-Horror Movies",
@@ -596,7 +585,6 @@ const categories = [
   {
     name: "Independent Movies",
     code: 7077,
-    background: "#343090",
     other: [
       {
         name: "Exprimental Movies",
@@ -627,7 +615,6 @@ const categories = [
   {
     name: "Music",
     code: 1701,
-    background: "#006600",
     other: [
       {
         name: "Kids Music",
@@ -662,7 +649,6 @@ const categories = [
   {
     name: "Musicals",
     code: 13335,
-    background: "#007D71",
     other: [
       {
         name: "Classic Musicals",
@@ -685,7 +671,6 @@ const categories = [
   {
     name: "Romantic Movies",
     code: 8883,
-    background: "#8F3B76",
     other: [
       {
         name: "Romantic Favorites",
@@ -724,7 +709,6 @@ const categories = [
   {
     name: "Sci-Fi & Fantasy",
     code: 1492,
-    background: "#218c74",
     other: [
       {
         name: "Action Sci-Fi & Fantasy",
@@ -771,7 +755,6 @@ const categories = [
   {
     name: "Sports Movies",
     code: 4370,
-    background: "#3655B3",
     other: [
       {
         name: "Sports Comedies",
@@ -818,7 +801,6 @@ const categories = [
   {
     name: "Thrillers",
     code: 8933,
-    background: "#474700",
     other: [
       {
         name: "Action Thrillers",
@@ -877,7 +859,6 @@ const categories = [
   {
     name: "TV Shows",
     code: 83,
-    background: "#6F1E51",
     other: [
       {
         name: "British TV Shows",
