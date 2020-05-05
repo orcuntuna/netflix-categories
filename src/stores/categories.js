@@ -270,6 +270,290 @@ const categories = [
         code: 934
       },
     ]
+  },
+  {
+    name: "Documentaries",
+    code: 6839,
+    other: [
+      {
+        name: "Biographical Documentaries",
+        code: 3652
+      },
+      {
+        name: "Crime Documentaries",
+        code: 9875
+      },
+      {
+        name: "Foreign Documentaries",
+        code: 5161
+      },
+      {
+        name: "Historical Documentaries",
+        code: 5349
+      },
+      {
+        name: "Military Documentaries",
+        code: 4006
+      },
+      {
+        name: "Sports Documentaries",
+        code: 180
+      },
+      {
+        name: "Music & Concert Documentaries",
+        code: 90361
+      },
+      {
+        name: "Travel & Adventure Documentaries",
+        code: 1159
+      },
+      {
+        name: "Political Documentaries",
+        code: 7018
+      },
+      {
+        name: "Religious Documentaries",
+        code: 10005
+      },
+      {
+        name: "Science & Nature Documentaries",
+        code: 2595
+      },
+      {
+        name: "Social & Cultural Documentaries",
+        code: 3675
+      },
+    ]
+  },
+  {
+    name: "Dramas",
+    code: 5763,
+    other: [
+      {
+        name: "Biographical Dramas",
+        code: 3179
+      },
+      {
+        name: "Classic Dramas",
+        code: 29809
+      },
+      {
+        name: "Courtroom Dramas",
+        code: 528582748
+      },
+      {
+        name: "Crime Dramas",
+        code: 6889
+      },
+      {
+        name: "Dramas based on Books",
+        code: 4961
+      },
+      {
+        name: "Dramas based on real life",
+        code: 3653
+      },
+      {
+        name: "Tearjerkers",
+        code: 6384
+      },
+      {
+        name: "Foreign Dramas",
+        code: 2150
+      },
+      {
+        name: "Sports Dramas",
+        code: 7243
+      },
+      {
+        name: "Independent Dramas",
+        code: 384
+      },
+      {
+        name: "Teen Dramas",
+        code: 9299
+      },
+      {
+        name: "Military Dramas",
+        code: 11
+      },
+      {
+        name: "Period Pieces",
+        code: 12123
+      },
+      {
+        name: "Political Dramas",
+        code: 6616
+      },
+      {
+        name: "Romantic Dramas",
+        code: 1255
+      },
+      {
+        name: "Showbiz Dramas",
+        code: 5012
+      },
+      {
+        name: "Social Ussue Dramas",
+        code: 3947
+      },
+    ]
+  },
+  {
+    name: "Faith & Spirituality",
+    code: 26835,
+    other: [
+      {
+        name: "Faith & Spirituality Movies",
+        code: 52804
+      },
+      {
+        name: "Spiritual Documentaries",
+        code: 2760
+      },
+      {
+        name: "Kids Faith & Spirituality",
+        code: 751423
+      },
+    ]
+  },
+  {
+    name: "Foreign Movies",
+    code: 7462,
+    other: [
+      {
+        name: "Art House Movies",
+        code: 29764
+      },
+      {
+        name: "Foreign Action & Adventure",
+        code: 11828
+      },
+      {
+        name: "Classic Foreign Movies",
+        code: 32473
+      },
+      {
+        name: "Foreign Comedies",
+        code: 4426
+      },
+      {
+        name: "Foreign Documentaries",
+        code: 5161
+      },
+      {
+        name: "Foreign Dramas",
+        code: 2150
+      },
+      {
+        name: "Foreign Horror Movies",
+        code: 8654
+      },
+      {
+        name: "Foreign Sci-Fi & Fantasty",
+        code: 6485
+      },
+      {
+        name: "Foreign Thrillers",
+        code: 10306
+      },
+      {
+        name: "Romantic Foreign Movies",
+        code: 7153
+      },
+      {
+        name: "Turkish Movies",
+        code: 1133133
+      },
+      {
+        name: "African Movies",
+        code: 3179
+      },
+      {
+        name: "Australian Movies",
+        code: 5230
+      },
+      {
+        name: "Belgian Movies",
+        code: 262
+      },
+      {
+        name: "Korean Movies",
+        code: 5685
+      },
+      {
+        name: "Latin American Movies",
+        code: 1613
+      },
+      {
+        name: "Middle Eastern Movies",
+        code: 5875
+      },
+      {
+        name: "New Zealand Movies",
+        code: 63782
+      },
+      {
+        name: "Russian Movies",
+        code: 11567
+      },
+      {
+        name: "Scandinavlan Movies",
+        code: 9292
+      },
+      {
+        name: "Southeast Asian Movies",
+        code: 9196
+      },
+      {
+        name: "Spanish Movies",
+        code: 58741
+      },
+      {
+        name: "Greek Movies",
+        code: 61115
+      },
+      {
+        name: "German Movies",
+        code: 58807
+      },
+      {
+        name: "French Movies",
+        code: 58807
+      },
+      {
+        name: "Eastern European Movies",
+        code: 5254
+      },
+      {
+        name: "Dutch Movies",
+        code: 10606
+      },
+      {
+        name: "Irish Movies",
+        code: 58750
+      },
+      {
+        name: "Japanese Movies",
+        code: 10398
+      },
+      {
+        name: "Italian Movies",
+        code: 8221
+      },
+      {
+        name: "Indian Movies",
+        code: 10463
+      },
+      {
+        name: "Chinese Movies",
+        code: 3960
+      },
+      {
+        name: "British Movies",
+        code: 10757
+      },
+    ]
   }
 ];
 
