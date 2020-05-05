@@ -7,32 +7,30 @@
     background-color: #222;
     padding: 10px 10px;
     border-radius: 4px;
-    flex: auto;
-    min-width: 150px;
-    margin: 0 14px 14px 0;
-    width: 300px;
+    margin: 0 7px 14px 7px;
   }
-  a {
-    color: #eee;
+  .custom-card a {
+    color: #ddd;
     display: block;
     text-decoration: none;
     border-radius: 3px;
     padding: 4px 10px;
   }
-  a:hover {
+  .custom-card a:hover {
     background-color: #262626;
-    transition: 0.3s;
+    transition: 0.2s;
   }
-  a small {
+  .custom-card a small {
     color: #aaa;
     margin-left: auto;
   }
-  .header {
-    margin-bottom: 10px;
+  .custom-card .header {
+    margin-bottom: 3px;
   }
-  .header a {
-    font-size: 1.1em;
+  .custom-card .header a {
+    font-size: 1.3em;
     font-weight: 500;
+    color: #eee;
   }
 </style>
 

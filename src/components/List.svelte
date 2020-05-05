@@ -1,21 +1,31 @@
 <script>
+  import { onMount } from "svelte";
+  import Masonry from "masonry-layout";
   import Card from "./Card.svelte";
   import data from "../stores/categories.js";
+  onMount(() => {
+    var msnry = new Masonry(".list");
+  });
 </script>
 
 <style>
   .list {
     margin-top: 10px;
-    display: flex;
-    flex-flow: row wrap;
-    margin-left: 7px;
-    width: 100%;
-    margin-bottom: 20px;
+  }
+  .grid-item {
+    width: 33.3%;
+  }
+  @media only screen and (max-width: 600px) {
+    .grid-item{
+      width: 100%
+    }
   }
 </style>
 
 <div class="list">
   {#each data as category}
-    <Card data={category} />
+    <div class="grid-item">
+      <Card data={category} />
+    </div>
   {/each}
 </div>
