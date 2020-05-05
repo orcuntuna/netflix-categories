@@ -14,20 +14,15 @@
         for (let j = 0; j < categories_data[i].other.length; j++) {
           if (categories_data[i].other[j].name.toLowerCase().includes($filter.toLowerCase())) {
             await item.other.push(categories_data[i].other[j]);
-            console.log(categories_data[i].other[j])
           }
         }
         if (item.other.length > 0) {
           await filtered_items.push(item);
         }
       }
-      await categories.set(filtered_items);
-      masonry.off()
-      masonry.on()
+      categories.set(filtered_items);
     } else {
-      await categories.set(categories_data);
-      masonry.off()
-      masonry.on()
+      categories.set(categories_data);
     }
   };
 </script>
@@ -47,6 +42,7 @@
     height: 50px;
     outline: 0;
     padding: 0 20px;
+    margin-bottom: 15px;
   }
   input::placeholder {
     color: #a1a1a1;

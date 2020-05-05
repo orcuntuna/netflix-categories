@@ -1,3 +1,11 @@
+<script>
+  import { categories, original_data, filter } from "../data/store.js";
+  function onClickLogo() {
+    filter.set("");
+    categories.set($original_data);
+  }
+</script>
+
 <style>
   .header {
     background: #222;
@@ -8,12 +16,13 @@
     justify-content: space-between;
     align-items: center;
   }
-  h1 {
+  .header h1 {
     font-size: 1.4em;
     padding: 0;
     margin: 0 0 0 10px;
+    cursor: pointer;
   }
-  a.github {
+  .header .github {
     color: #eee;
     font-size: 0.9em;
     margin-right: 10px;
@@ -23,7 +32,7 @@
 
 <div class="header">
   <div class="container header-in">
-    <h1>netflix categories</h1>
+    <h1 on:click={onClickLogo}>netflix categories</h1>
     <a
       class="github"
       href="https://github.com/orcuntuna/netflix-categories"
