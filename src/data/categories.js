@@ -520,36 +520,6 @@ const categories = [
     ]
   },
   {
-    name: "Gay & Lesbian Movies",
-    code: 5977,
-    other: [
-      {
-        name: "Gay & Lesbian Comedies",
-        code: 7120
-      },
-      {
-        name: "Gay & Lesbian Dramas",
-        code: 500
-      },
-      {
-        name: "Ramantic Gay & Lesbian Movies",
-        code: 3329
-      },
-      {
-        name: "Foreign Gay & Lesbian Movies",
-        code: 8243
-      },
-      {
-        name: "Gay & Lesbian Documentaries",
-        code: 4720
-      },
-      {
-        name: "Gay & Lesbian TV Shows",
-        code: 65263
-      },
-    ]
-  },
-  {
     name: "Horror Movies",
     code: 8711,
     other: [
@@ -566,7 +536,7 @@ const categories = [
         code: 10944
       },
       {
-        name: "Deep Sea horror Movies",
+        name: "Deep Sea Horror Movies",
         code: 45028
       },
       {
