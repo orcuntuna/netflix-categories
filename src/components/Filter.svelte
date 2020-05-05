@@ -1,10 +1,44 @@
+<script>
+  import { filter, categories, masonry } from "../data/store.js";
+  import categories_data from "../data/categories.js";
+  const updateResults = async e => {
+    e.preventDefault();
+    if ($filter) {
+      let filtered_items = [];
+      for (let i = 0; i < categories_data.length; i++) {
+        let item = {
+          name: categories_data[i].name,
+          code: categories_data[i].code,
+          other: []
+        };
+        for (let j = 0; j < categories_data[i].other.length; j++) {
+          if (categories_data[i].other[j].name.toLowerCase().includes($filter.toLowerCase())) {
+            await item.other.push(categories_data[i].other[j]);
+            console.log(categories_data[i].other[j])
+          }
+        }
+        if (item.other.length > 0) {
+          await filtered_items.push(item);
+        }
+      }
+      await categories.set(filtered_items);
+      masonry.off()
+      masonry.on()
+    } else {
+      await categories.set(categories_data);
+      masonry.off()
+      masonry.on()
+    }
+  };
+</script>
+
 <style>
   .filter {
     padding: 0 7px;
     margin-top: 30px;
     position: relative;
   }
-  input{
+  input {
     color: #ddd;
     background: #262626;
     width: 100%;
@@ -14,17 +48,27 @@
     outline: 0;
     padding: 0 20px;
   }
-  input::placeholder{
+  input::placeholder {
     color: #a1a1a1;
   }
-  .icon{
+  .filter button {
     position: absolute;
     right: 20px;
     top: 12px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: 0;
   }
 </style>
 
-<div class="filter">
-  <img class="icon" src="img/search.svg" alt="search">
-  <input type="text" placeholder="Search and filter categories.." />
-</div>
+<form class="filter" on:submit={updateResults}>
+  <button type="submit">
+    <img class="icon" src="img/search.svg" alt="search" />
+  </button>
+  <input
+    type="text"
+    placeholder="Search and filter categories.."
+    bind:value={$filter} />
+</form>

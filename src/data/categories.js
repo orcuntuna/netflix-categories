@@ -426,42 +426,6 @@ const categories = [
         code: 29764
       },
       {
-        name: "Foreign Action & Adventure",
-        code: 11828
-      },
-      {
-        name: "Classic Foreign Movies",
-        code: 32473
-      },
-      {
-        name: "Foreign Comedies",
-        code: 4426
-      },
-      {
-        name: "Foreign Documentaries",
-        code: 5161
-      },
-      {
-        name: "Foreign Dramas",
-        code: 2150
-      },
-      {
-        name: "Foreign Horror Movies",
-        code: 8654
-      },
-      {
-        name: "Foreign Sci-Fi & Fantasty",
-        code: 6485
-      },
-      {
-        name: "Foreign Thrillers",
-        code: 10306
-      },
-      {
-        name: "Romantic Foreign Movies",
-        code: 7153
-      },
-      {
         name: "Turkish Movies",
         code: 1133133
       },
