@@ -30,7 +30,7 @@
 <style>
   .filter {
     padding: 0 7px;
-    margin-top: 30px;
+    margin-top: 25px;
     position: relative;
   }
   input {
@@ -42,7 +42,7 @@
     height: 50px;
     outline: 0;
     padding: 0 20px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   input::placeholder {
     color: #a1a1a1;

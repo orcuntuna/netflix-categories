@@ -12,6 +12,7 @@
     margin-top: 10px;
     column-count: 3;
     column-gap: 0;
+    margin-bottom: 20px;
   }
   .grid-item {
     break-inside: avoid;
