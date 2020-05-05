@@ -1,5 +1,5 @@
 <script>
-  import { filter, categories, masonry } from "../data/store.js";
+  import { filter, categories } from "../data/store.js";
   import categories_data from "../data/categories.js";
   const updateResults = async e => {
     e.preventDefault();
