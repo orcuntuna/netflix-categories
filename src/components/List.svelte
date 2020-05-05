@@ -17,15 +17,14 @@
     break-inside: avoid;
     width: 100%;
   }
-
-  @media only screen and (max-width: 600px) {
-    .list {
-      column-count: 1;
-    }
-  }
   @media only screen and (max-width: 1000px) {
     .list {
       column-count: 2;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .list {
+      column-count: 1;
     }
   }
 </style>
