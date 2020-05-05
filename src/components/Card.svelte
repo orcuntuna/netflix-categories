@@ -34,7 +34,7 @@
   }
 </style>
 
-<div class="custom-card">
+<div class="custom-card" style="background: {data.background}">
   <div class="header">
     <a href="https://netflix.com/browse/genre/{data.code}" target="_blank">
       {data.name}
