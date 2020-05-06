@@ -2,24 +2,22 @@
   import { filter, categories } from "../data/store.js";
   import categories_data from "../data/categories.js";
   const updateResults = async e => {
-    e.preventDefault();
+    if (e.type !== "keyup") e.preventDefault();
     if ($filter) {
       let filtered_items = [];
-      for (let i = 0; i < categories_data.length; i++) {
+      categories_data.forEach(async data => {
         let item = {
-          name: categories_data[i].name,
-          code: categories_data[i].code,
+          name: data.name,
+          code: data.code,
           other: []
         };
-        for (let j = 0; j < categories_data[i].other.length; j++) {
-          if (categories_data[i].other[j].name.toLowerCase().includes($filter.toLowerCase())) {
-            await item.other.push(categories_data[i].other[j]);
+        data.other.forEach(async elements => {
+          if (elements.name.toLowerCase().includes($filter.toLowerCase())) {
+            await item.other.push(elements);
           }
-        }
-        if (item.other.length > 0) {
-          await filtered_items.push(item);
-        }
-      }
+        });
+        if (item.other.length > 0) await filtered_items.push(item);
+      });
       categories.set(filtered_items);
     } else {
       categories.set(categories_data);
@@ -66,5 +64,6 @@
   <input
     type="text"
     placeholder="Search and filter categories.."
-    bind:value={$filter} />
+    bind:value={$filter}
+    on:keyup={updateResults} />
 </form>
