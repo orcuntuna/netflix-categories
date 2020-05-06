@@ -2,7 +2,10 @@
   import { filter, categories } from "../data/store.js";
   import categories_data from "../data/categories.js";
   const updateResults = async e => {
-    if (e.type !== "keyup") e.preventDefault();
+    if (e.type === "input") {
+    } else {
+      e.preventDefault();
+    }
     if ($filter) {
       let filtered_items = [];
       categories_data.forEach(async data => {
@@ -65,5 +68,5 @@
     type="text"
     placeholder="Search and filter categories.."
     bind:value={$filter}
-    on:keyup={updateResults} />
+    on:input={updateResults} />
 </form>
